@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply px-7 py-2 bg-BrandPrimary text-white rounded hover:bg-NeutralDGrey transition-all duration-300 hover:-translate-y-4;
+}
